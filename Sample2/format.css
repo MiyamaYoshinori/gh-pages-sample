@@ -1,0 +1,50 @@
+/* Sample2 */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 480px以上の場合 */
+@media screen and (min-width: 480px){
+
+body {
+  padding: 20px;
+}
+.frame {
+  width: 375px;
+  height: 812px;
+  Background-color: #ddd;
+}
+}
+
+h1 {
+  color: #777;
+}
+
+.slider {
+  width: 100%;
+  padding: 10px 0px;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: inline-block;
+  -webkit-overflow-scrolling: touch;
+  list-style: none;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.menu-list {
+  white-space: nowrap;
+  list-style: none;
+}
+
+.menu-list li {
+  width: 6em;
+  font-size: 1em;
+  display: inline-block;
+  text-align: center;
+}
+
