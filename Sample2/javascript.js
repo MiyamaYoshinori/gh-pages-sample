@@ -2,7 +2,7 @@
 
 jQuery(function($){
 
-  const startNum = 100;       //初期位置
+  const startNum = 10000;       //初期位置
   const safeArea = 20;          //初期位置に戻すための判定の範囲
   let currentNum = startNum;    //前回の位置
   let presentNum = startNum;    //現在の位置
